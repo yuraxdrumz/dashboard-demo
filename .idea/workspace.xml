@@ -32,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebsiteInfo.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebsiteInfo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/WebsiteInfo/WebsiteInfo.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="370">
@@ -53,6 +53,16 @@
                 <marker date="1499424526839" expanded="true" signature="3515:3864" ph="..." />
                 <marker date="1499424526839" expanded="true" signature="3591:3842" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,18 +130,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Doughnut.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Doughnut/Doughnut.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="58" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -183,6 +181,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/components/Websites/Websites.js" />
         <option value="$PROJECT_DIR$/src/components/WebsiteInfo/WebsiteInfo.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -548,12 +547,12 @@
       <option name="presentableId" value="Default" />
       <updated>1499188072564</updated>
       <workItem from="1499188073878" duration="21072000" />
-      <workItem from="1499353899639" duration="24116000" />
+      <workItem from="1499353899639" duration="24273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45188000" />
+    <option name="totallyTimeSpent" value="45345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -857,6 +856,14 @@
             <marker date="1499424526839" expanded="true" signature="3515:3864" ph="..." />
             <marker date="1499424526839" expanded="true" signature="3591:3842" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

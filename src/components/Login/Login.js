@@ -153,7 +153,7 @@ export default class Login extends Component{
   }
   async auth(){
     let { email, password } = this.state
-    const answer = await axios.post(`http://localhost:5000/auth/login`,{
+    const answer = await axios.post(`http://52.39.248.26:5000/auth/login`,{
       email,
       password
     })

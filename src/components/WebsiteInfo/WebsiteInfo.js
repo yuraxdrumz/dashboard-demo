@@ -70,7 +70,7 @@ export default class WebsiteInfo extends Component{
     }
   }
   async componentWillMount(){
-    const data = await axios.get(`http://localhost:5000/api/getwebsite/${this.props.routeParams.websiteId}`)
+    const data = await axios.get(`http://52.39.248.26:5000/api/getwebsite/${this.props.routeParams.websiteId}`)
     this.setState({
       campaigns:data.data.data.campaigns,
       clicks:data.data.data.clicks,

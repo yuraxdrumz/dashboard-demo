@@ -148,25 +148,25 @@ export default class Main extends Component{
     }
   }
   getChartDataSet(){
-    return axios.get('http://localhost:5000/api/linechart')
+    return axios.get('http://52.39.248.26:5000/api/linechart')
   }
   getImpressions(){
-    return axios.get('http://localhost:5000/api/impressions')
+    return axios.get('http://52.39.248.26:5000/api/impressions')
   }
   getClicks(){
-    return axios.get('http://localhost:5000/api/clicks')
+    return axios.get('http://52.39.248.26:5000/api/clicks')
   }
   getCtrs(){
-    return axios.get('http://localhost:5000/api/ctrs')
+    return axios.get('http://52.39.248.26:5000/api/ctrs')
   }
   getEcpms(){
-    return axios.get('http://localhost:5000/api/ecpms')
+    return axios.get('http://52.39.248.26:5000/api/ecpms')
   }
   getPieNumbersOne(){
-    return axios.get('http://localhost:5000/api/firstpie')
+    return axios.get('http://52.39.248.26:5000/api/firstpie')
   }
   getPieNumbersTwo(){
-    return axios.get('http://localhost:5000/api/secondpie')
+    return axios.get('http://52.39.248.26:5000/api/secondpie')
   }
   async componentWillMount(){
     const answer = await axios.all([this.getImpressions(),this.getClicks(),

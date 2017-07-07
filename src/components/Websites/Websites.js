@@ -79,7 +79,7 @@ export default class Websites extends Component{
     this.context.router.push(`/websites/${website.id}?name=${website.name}`)
   }
   async componentWillMount(){
-    const data = await axios.get('http://localhost:5000/api/getwebsitesdata')
+    const data = await axios.get('http://52.39.248.26:5000/api/getwebsitesdata')
     this.setState({
       impressions:data.data.data.impressions,
       clicks:data.data.data.clicks,
